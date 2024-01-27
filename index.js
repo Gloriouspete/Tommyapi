@@ -6,6 +6,10 @@ app.get('/', (req, res) => {
   res.send('Hi Tommy, Can you see how easy it is');
 });
 
+app.get('/getsampletext', (req, res) => {
+  res.send('This is an example of get sample route, it looks easy but it's not');
+});
+
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
 });
