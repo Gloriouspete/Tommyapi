@@ -7,7 +7,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/getsampletext', (req, res) => {
-  res.send('This is an example of get sample route, it looks easy but it's not');
+  res.send('This is an example of get sample route, it looks easy but its not');
 });
 
 app.listen(port, () => {
